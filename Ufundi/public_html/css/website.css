@@ -1,0 +1,283 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('grid.css');
+@import url('forms.css');
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+body {
+	font-family: mv Boli;
+	height: 100%;
+    background-color: #000;
+}
+#achtergrond {
+	background-color: rgb(108,183,170);
+    background-repeat: no-repeat;
+    background-image:url('png/logo-background.png');
+    background-size: 850px;
+	background-position: center;
+	width: 1104px;
+}
+@font-face
+{
+font-family: mv Boli;
+src: url('mvboli.ttf'),
+     url('mvboli.eot'); /* IE9 */
+} 
+#naamtitel {
+margin-top: 10px;
+margin-left: 5px;
+margin-bottom: 10px;
+font-size:36pt;
+text-align:center;
+}
+#kolom {
+font-size: 18pt;
+}
+#house-container {
+	width: 1104px;
+	background-image:url('png/repeatable-small1.png');
+	background-repeat:repeat-y;
+	min-height:1000px;
+	background-position:center top;
+}
+#roof-container {
+	width: 1104px;
+	background-image:url('png/rooftop4.png');
+	min-height:230px;
+	background-position:center top;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.balkon {
+	height:325px;
+	background-image:url('png/waslijn.png');
+	background-repeat:no-repeat;
+}
+#klik-logo {
+	height: 250px;
+	background-repeat:no-repeat;
+}
+#klik-logo img {
+	display:block;
+	margin-left:-15px;
+	margin-top: 14px;
+}
+.push-logo {
+	margin: -22px -320px 1.5em 380px;
+}
+.wasknijper-logo {
+	background-image:url('png/wasknijper-klein.png');
+	height: 40px;
+	width: 100px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	position: absolute;
+	top:0px;
+	left: auto;
+}
+.wasknijper-logo1 {
+	background-image:url('png/wasknijper-klein.png');
+	height: 40px;
+	width: 100px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	position: absolute;
+	top:0px;
+	left: auto;
+	margin-left:106px;
+	margin-top: 20px;
+}
+.wasknijper-logo2 {
+	background-image:url('png/wasknijper-klein.png');
+	height: 40px;
+	width: 100px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	position: absolute;
+	top:0px;
+	left: auto;
+	margin-left:40px;
+	margin-top: 29px;
+}
+.push-wasknijper-logo {
+	margin-left:68px;
+	margin-top: 20px;
+}
+#klik-hoofden {
+    position:relative;
+}
+#hoofd-1 {
+    position:absolute;
+    top:10px;
+    left:105px;
+}
+#hoofd-1 img {
+    position:absolute;
+    top:25px;
+    left:-12px;
+}
+#hoofd-2 {    
+    position:absolute;
+    top:29px;
+    left:328px;
+}
+#hoofd-2 img {
+    position:absolute;
+    top:20px;
+    left:-29px;
+}
+#hoofd-3 {
+    position:absolute;
+    left:515px;
+    top:29px;
+}
+#hoofd-3 img {
+    position:absolute;
+    top:20px;
+    left:-10px;
+}
+#hoofd-4 {
+    position:absolute;
+    top:16px;
+    left:710px;
+}
+#hoofd-4 img {
+    position:absolute;
+    top:26px;
+    left:-14px;
+}
+.vogel {
+	position:absolute;
+}
+.vogel img{
+	display:block;
+}
+#vogel-1 {
+	top:40px;
+	left:170px;
+}
+#vogel-1 img {
+	position: absolute;
+	transform:rotate(-22deg);
+	-ms-transform:rotate(-22deg); /* IE 9 */
+	-webkit-transform:rotate(-22deg); /* Safari and Chrome */
+}
+#vogel-2 {
+	top: 125px;
+	left: 360px;
+}
+#vogel-2 img {
+	position: absolute;
+	transform:rotate(8deg);
+	-ms-transform:rotate(8deg); /* IE 9 */
+	-webkit-transform:rotate(8deg); /* Safari and Chrome */
+}
+#vogel-3 {
+	top: 12px;
+	left: 550px;
+}
+#vogel-3 img {
+	position: absolute;
+	transform:rotate(18deg);
+	-ms-transform:rotate(18deg); /* IE 9 */
+	-webkit-transform:rotate(18deg); /* Safari and Chrome */
+}
+#vogel-4 {
+	top: 150px;
+	left: 740px;
+}
+#vogel-4 img {
+	position: absolute;
+	transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg); /* IE 9 */
+	-webkit-transform:rotate(-15deg); /* Safari and Chrome */
+}
+#vogel-5 {
+	top: 50px;
+	left: 930px;
+}
+#vogel-5 img {
+	position: absolute;
+	transform:rotate(15deg);
+	-ms-transform:rotate(15deg); /* IE 9 */
+	-webkit-transform:rotate(15deg); /* Safari and Chrome */
+}
+#login {
+	position: absolute;
+	margin:0;
+	position:absolute;
+	top:60px;
+	left: -60px;
+	background-color:rgb(0,0,0);
+	-transition: all .40s ease-in-out;
+	-webkit-transition: all .40s ease-in-out;
+	-moz-transition: all .40s ease-in-out;
+	-o-transition: all .40s ease-in-out;
+	-ms-transition: all .40s ease-in-out;
+	padding:20px;
+	border-radius:10px;
+	
+	transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg); /* IE 9 */
+	-webkit-transform:rotate(-2deg); /* Safari and Chrome */
+	display:none;
+}
+#caller:hover #login {
+	display:block;
+}
+#login input {
+	border:0;
+	background:#FFF;
+	padding:5px;
+	margin:0;
+	margin-bottom:10px;
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+}
+#login button {
+	background-color: #fff;
+	color: #000;
+	border: none;
+	padding:5px 10px;
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+}
+#login button:hover {
+	background-color: #DDD;
+}
+#login button:active {
+	background-color: #AAA;
+}
+
+#caller
+{
+	height:80px;
+	width:50px;
+	position:absolute;
+	background-color:transparent;
+	right:0px;
+}
+
+#terugknop {
+	top: 20px;
+	left: 170px;
+}
+#project-1 {
+	position:relative;
+}
+#project-1 img {
+	margin-top: 37px;
+	margin-left: 30px;
+}
+#project-2 {
+	position: relative;
+}
+#project-2 img {
+	margin-top: 54px;
+	margin-left: 15px;
+}
