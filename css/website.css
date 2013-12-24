@@ -32,6 +32,7 @@ margin-left: 5px;
 margin-bottom: 10px;
 font-size:36pt;
 text-align:center;
+font-color:black;
 }
 #kolom {
 font-size: 18pt;
@@ -271,8 +272,15 @@ font-size: 18pt;
 	position:relative;
 }
 #project-1 img {
-	margin-top: 37px;
-	margin-left: 30px;
+	margin-top: 43px;
+	margin-left: 70px;
+}
+#project-1-tekst {
+    font-size: 15pt;
+    font-color: black;
+}
+h2 {
+    margin-bottom : 0.25em;
 }
 #project-2 {
 	position: relative;
