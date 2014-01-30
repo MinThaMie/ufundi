@@ -15,7 +15,7 @@ body {
 #achtergrond {
 	background-color: #b76c79;
     background-repeat: no-repeat;
-    background-image:url('png/logo-background.png');
+    background-image:url('png/logo achtergrond.png');
     background-size: 850px;
 	background-position: center;
 	width: 1104px;
@@ -118,7 +118,7 @@ font-size: 18pt;
 #hoofd-1 img {
     position:absolute;
     top:25px;
-    left:-12px;
+    left:-22px;
 }
 #hoofd-2 {    
     position:absolute;
@@ -127,8 +127,8 @@ font-size: 18pt;
 }
 #hoofd-2 img {
     position:absolute;
-    top:20px;
-    left:-29px;
+    top:22px;
+    left:-6px;
 }
 #hoofd-3 {
     position:absolute;
@@ -137,8 +137,8 @@ font-size: 18pt;
 }
 #hoofd-3 img {
     position:absolute;
-    top:20px;
-    left:-10px;
+    top:22px;
+    left:-6px;
 }
 #hoofd-4 {
     position:absolute;
@@ -147,8 +147,8 @@ font-size: 18pt;
 }
 #hoofd-4 img {
     position:absolute;
-    top:26px;
-    left:-14px;
+    top:22px;
+    left:-6px;
 }
 .vogel {
 	position:absolute;
