@@ -8,9 +8,11 @@ html {
     min-height: 100%;
 }
 body {
-	font-family: mv Boli;
+	font-family: stiutk;
 	height: 100%;
     background-color: #000;
+    color: black;
+    font-weight: 500;
 }
 #achtergrond {
 	background-color: #b76c79;
@@ -22,9 +24,9 @@ body {
 }
 @font-face
 {
-font-family: mv Boli;
-src: url('mvboli.ttf'),
-     url('mvboli.eot'); /* IE9 */
+font-family: stiutk; /* KG Somebody That I Used To Know font*/
+src: url('stiutk.ttf'),
+     url('stiutk.eot'); /* IE9 */
 } 
 #naamtitel {
 margin-top: 10px;
@@ -32,7 +34,8 @@ margin-left: 5px;
 margin-bottom: 10px;
 font-size:36pt;
 text-align:center;
-font-color:black;
+color:black;
+font-weight: 700;
 }
 #kolom {
 font-size: 18pt;
@@ -268,22 +271,34 @@ font-size: 18pt;
 	top: 20px;
 	left: 170px;
 }
-#project-1 {
-	position:relative;
+#project-1-fp {
+    position:absolute;
 }
-#project-1 img {
+
+#project-1 {
+	position:absolute;
+    background-color: rgba(182, 93, 109, 0.7);
+    border-radius: 10px;
+}
+#project-1-fp img {
 	margin-top: 43px;
 	margin-left: 70px;
+    position:absolute;
+   
 }
 #project-1-tekst {
     font-size: 15pt;
-    font-color: black;
+    color: black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+   
 }
 h2 {
     margin-bottom : 0.25em;
 }
-#project-2 {
-	position: relative;
+#project-2-fp {
+	position: absolute;
 }
 #project-2 img {
 	margin-top: 54px;
