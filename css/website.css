@@ -24,9 +24,9 @@ body {
 }
 @font-face
 {
-font-family: stiutk; /* KG Somebody That I Used To Know font*/
-src: url('stiutk.ttf'),
-     url('stiutk.eot'); /* IE9 */
+font-family: NeverSayNever; /* KG NeverSayNever font*/
+src: url('NeverSayNever.ttf'),
+     url('NeverSayNever.eot'); /* IE9 */
 } 
 #naamtitel {
 margin-top: 10px;
