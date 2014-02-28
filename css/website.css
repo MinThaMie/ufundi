@@ -113,6 +113,25 @@ font-size: 18pt;
 #klik-hoofden {
     position:relative;
 }
+
+#klik-hoofden > div > img {
+    z-index:2;
+}
+
+#klik-hoofden .hoofd-tekst {
+    position:absolute;
+    top:-200px;
+    left:-200px;
+    background:#FFF;
+    border-radius:20px;
+    width:500px;
+    height:500px;
+    padding:10px 15px;
+    opacity:0;
+    display:none;
+    z-index:1;
+}
+
 #hoofd-1 {
     position:absolute;
     top:10px;
