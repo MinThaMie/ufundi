@@ -116,6 +116,11 @@ font-size: 18pt;
 
 #klik-hoofden > div > img {
     z-index:2;
+    cursor:pointer;
+}
+
+#klik-hoofden > div.active > img {
+    cursor:default;
 }
 
 #klik-hoofden .hoofd-tekst {
