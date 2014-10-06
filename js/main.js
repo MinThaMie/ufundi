@@ -3,7 +3,7 @@
         heads();
     });
     
-    function heads(){
+    function heads(){        
         $('#klik-hoofden').delegate('div img', 'click', function(){
             var elemClicked = $(this).parent();
             //close the opened heads (just in case there are more)
@@ -25,6 +25,14 @@
                     'left': offsetLeft,
                     'z-index': '999'
                 }, 400, 'swing', function(){popHead(elemClicked);});
+            }
+        });
+        
+        //close the correct head when clicking outside of the container
+        $(document).mouseup(function (e){
+            var openHead = $("#klik-hoofden .active");
+            if (!openHead.is(e.target) && openHead.has(e.target).length === 0){
+                closeHead(openHead.parent());
             }
         });
     };
